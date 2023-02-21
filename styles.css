@@ -1,0 +1,76 @@
+body {
+    background: #dcdfd2;
+    color: #4b2707;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+#project-1{
+    float: left;
+    width: 33%;
+}
+#project-2{
+    display: inline-block;
+    width: 33%;
+}
+#project-3{
+    float: right;
+    width: 33%;
+}
+.container {
+    width: 924px;
+    margin: 0 auto;
+    padding: 30px 24px;
+}
+
+h1,h2 {
+    color:blue;
+    font-size: 40px;
+    font-weight: normal;
+    line-height: 44px;
+    margin: 0;
+}
+h1 {
+    text-align: center;
+    padding: 0 0 20px;
+    
+}
+
+header {
+    fontsize
+    background: url('../it_computer_programming.jpg');
+}
+
+p{
+  margin: 0;
+}
+
+header nav{
+    text-align: center;
+}
+
+header nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+    line-height: 141px;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+header nav ul li a:hover {
+    color: #4b2707;
+    padding-top: 20px;
+}
+
+header nav ul li#logo a {
+    display: block;
+    width: 292px;
+    height: 141px;
+    background: url('../IMG_propic.JPG') center center no repeat;
+}
